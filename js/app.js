@@ -14,11 +14,11 @@ when the document is ready.
 // creates an html script for the new project card
 function createprojHTML(project) {
     const projHTML = `
-    				<div class="col-md-3 col-md-push-1 project-imgs">
-    					<img class="img-responsive" src="https://github.com/smyrbdr/${project.reponame}/featured_image.jpg" alt="Project${project.projnum} Image" data-toggle="modal" data-target="#project${project.projnum}">
-						<h3 class="text-uppercase">Project ${project.projnum}</h3>
-						<p class="text-image">Click the above image for details</p>
-					</div>
+    			<div class="col-md-3 col-md-push-1 project-imgs">
+    				<img class="img-responsive" src="https://github.com/smyrbdr/${project.reponame}/blob/master/featured_image.jpg?raw=true" alt="Project${project.projnum} Image" data-toggle="modal" data-target="#project${project.projnum}">
+					<h3 class="text-uppercase">Project ${project.projnum}</h3>
+					<p class="text-image">Click the above image for details</p>
+				</div>
 	`;
 
 	const modalHTML = `
@@ -31,7 +31,7 @@ function createprojHTML(project) {
                     <h4 class="modal-title" id="myModalLabel${project.projnum}">About Project ${project.projnum}</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="https://github.com/smyrbdr/${project.reponame}/featured_image.jpg" alt="project image">
+                    <img class="img-responsive" src="https://github.com/smyrbdr/${project.reponame}/blob/master/featured_image.jpg?raw=true" alt="project image">
                     ${project.description}
                 </div>
                 <div class="modal-footer">

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+	<html lang="en"><head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -59,7 +58,7 @@
 					<h2 class="text-muted">Blog Posts</h2>
 				</div>
 			</div>
-			<div class="row text-center" id="projectsmaindiv">
+			<div class="row text-center" id="blogpostsmaindiv">
 				<div class="col-md-3 col-md-push-1 project-imgs">
 					<a href="https://medium.com/deep-learning-turkiye/m%C3%BCzi%C4%9Fi-duyan-makineler-diyorum-5df60156cbaf" target="_blank">
 					<img class="img-responsive" src="images/blogpost1.jpg" alt="blogpost1 image"></a>
@@ -71,6 +70,7 @@
 					<p class="text-image">Click the image to go through blog post.</p>
 				</div>
 			</div>
+		</section>
 
 		<section class="projects">
 			<div class="row">
@@ -98,12 +98,18 @@
 					<img class="img-responsive" src="images/adanet.gif" alt="Project4 Image" data-toggle="modal" data-target="#project4">
 					<h3 class="text-uppercase">Project 4</h3>
 					<p class="text-image">Click the above image for details</p>
+				</div>			
+    			<div class="col-md-3 col-md-push-1 project-imgs">
+    				<img class="img-responsive" src="https://github.com/smyrbdr/FBE_deneme/blob/master/featured_image.jpg?raw=true" alt="Project6 Image" data-toggle="modal" data-target="#project6">
+					<h3 class="text-uppercase">Project 6</h3>
+					<p class="text-image">Click the above image for details</p>
 				</div>
 			</div>
 		</section>
+		
 		<footer>
-			<section class = "addnewproject">
-				<div class = "col-md-6 col-md-offset-4">
+			<section class="addnewproject">
+				<div class="col-md-6 col-md-offset-4">
 					<button type="button" class="btn btn-default" onclick="addproject()">Add New Project</button>
 				
 					<button type="button" class="btn btn-default" onclick="saveproject()" data-toggle="modal" data-target="#saveprojects">Save With New Projects</button>
@@ -208,5 +214,24 @@
             </div>
         </div>
     </div>
-</body>
-</html>
+
+
+	<!-- Modal -->
+    <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel6" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel6">About Project 6</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="https://github.com/smyrbdr/FBE_deneme/blob/master/featured_image.jpg?raw=true" alt="project image">
+                    This project was to apply HTML5 and CSS tools I have learnt to a real-life example: a descriptive website for my institution.
+                </div>
+                <div class="modal-footer">
+                	<button type="button" class="btn btn-primary" onclick="javascript:window.location.href='https://github.com/smyrbdr/FBE_deneme';">Visit Project</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body></html>
