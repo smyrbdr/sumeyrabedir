@@ -14,8 +14,23 @@ body {
     color: #676858;
 }
 
+p {
+    font-size: 1.5em;
+    margin-top: 1.5em;
+    line-height: 1.5em; 
+    text-align: justify;
+}
 
-section.projects, .portfolio-link, .addproject, .saveproject {
+.project-imgs{
+    border: .3em solid #bcbbbb;
+    padding: .3em;
+    margin: .5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    border-radius: 3%;
+}
+
+section.projects, .addnewproject {
     color: #747704;
 }
 
@@ -31,10 +46,31 @@ section.projects, .portfolio-link, .addproject, .saveproject {
     font-size: 60px;
 }
 
-.title-logo {
-    margin-top: 20px;
+.text-image {
+    font-size: 12px;
+    margin: 6px;
+    text-align: center;
 }
 
+.title-logo {
+    margin: 2em;
+    max-width: 178px;
+    max-height: 188px;
+    border-radius: 40%; 
+}
+
+.page-header {
+    margin : 2em;
+}
+
+.icons, button {
+    display: inline-grid;
+    margin: 0.5em;
+}
+
+footer {
+    margin-bottom: 3em;
+}
 
 /*@media only screen and (max-width: 500px){
     p {
