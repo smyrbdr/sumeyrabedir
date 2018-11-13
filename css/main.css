@@ -15,7 +15,7 @@ body {
 }
 
 
-section.projects, .portfolio-link {
+section.projects, .portfolio-link, .addproject, .saveproject {
     color: #747704;
 }
 
@@ -34,6 +34,7 @@ section.projects, .portfolio-link {
 .title-logo {
     margin-top: 20px;
 }
+
 
 /*@media only screen and (max-width: 500px){
     p {
