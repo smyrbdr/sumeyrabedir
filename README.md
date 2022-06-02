@@ -1,2 +1,2 @@
-# portfolio-site
-website for my portfolio
+# github projects all in one place
+
