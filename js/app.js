@@ -1,9 +1,9 @@
 /*
 
-For this quiz, can you use this script, which is linked in the <head> of index.html,
+
 to add a new project into my portfolio website.
 
-Remember, you'll need to pass a function into the jQuery object to run
+passed a function into the jQuery object to run
 when the document is ready.
 
 
@@ -35,7 +35,7 @@ function createprojHTML(project) {
                     ${project.description}
                 </div>
                 <div class="modal-footer">
-                	<button type="button" class="btn btn-primary" onclick="javascript:window.location.href='https://github.com/smyrbdr/${project.reponame}';">Visit Project</button>
+                	<button type="button" class="btn btn-primary" onclick="javascript:window.open('https://github.com/smyrbdr/${project.reponame}');">Visit Project</button>
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
