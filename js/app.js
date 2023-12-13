@@ -47,7 +47,7 @@ function createprojHTML(project) {
 
 function addproject() {
 	const newproject = {
-    projnum: prompt("Type the number of the new project"),
+    projnum: prompt("First Create a GitHub Repo for the new project. Type the number of the new project"),
     reponame: prompt("Type the name of GitHub project repo"),
     description: prompt("Write a description for the new project")
 };
