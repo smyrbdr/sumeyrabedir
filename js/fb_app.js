@@ -54,4 +54,4 @@
           commentsList.appendChild(listItem);
         });
       });
-  </script>
+
